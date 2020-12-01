@@ -4,11 +4,11 @@ React-based boilerplate using Webpack bundler, written for personal use as a tem
 
 ## Installation
 
-### Github installation
+### GitHub installation
 
-[Link to Github docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+[Link to GitHub docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 
-### Non-Github installation
+### Non-GitHub installation
 
 1. Create a new repository and a local directory on your machine with the same name.
 
@@ -28,7 +28,7 @@ cd your-project
 ```bash
 rm -rf .git
 git init
-git remote add origin git@gitlab.com:path/to/your-project.git
+git remote add origin git@github.com:path/to/your-project.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
