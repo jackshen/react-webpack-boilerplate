@@ -1,0 +1,14 @@
+{
+  "importOrder": [
+    "^@?([a-zA-Z-_]+/*)+$(?!(css))",
+    "^#([a-zA-Z-_]/*)+$(?!(css))",
+    "^.|(..)+([a-zA-Z-_]/*)+$(?!(css))",
+    "^(.*)css$"
+  ],
+  "importOrderSeparation": true,
+  "printWidth": 120,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}

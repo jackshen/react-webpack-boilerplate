@@ -1,0 +1,46 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:react/recommended", "prettier"],
+  "overrides": [
+    {
+      "files": ["*.json", "*.json5", "*.jsonc"],
+      "parser": "jsonc-eslint-parser"
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "project": ["./tsconfig.json"],
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "react", "sort-destructure-keys", "sort-keys-fix", "typescript-sort-keys"],
+  "rules": {
+    "@typescript-eslint/no-empty-function": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unnecessary-type-assertion": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "no-console": "warn",
+    "no-fallthrough": "off",
+    "react/jsx-sort-props": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/sort-default-props": "warn",
+    "react/sort-prop-types": "warn",
+    "sort-destructure-keys/sort-destructure-keys": "warn",
+    "sort-keys-fix/sort-keys-fix": "warn",
+    "sort-vars": "warn",
+    "typescript-sort-keys/interface": "warn",
+    "typescript-sort-keys/string-enum": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
