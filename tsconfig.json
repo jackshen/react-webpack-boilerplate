@@ -13,6 +13,7 @@
       "#api/*": ["./src/api/*"],
       "#assets/*": ["./src/assets/*"],
       "#components/*": ["./src/components/*"],
+      "#hooks/*": ["./src/hooks/*"],
       "#pages/*": ["./src/pages/*"],
       "#theme/*": ["./src/theme/*"]
     },
